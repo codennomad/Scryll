@@ -1,0 +1,17 @@
+# Arquivos e pastas de downloads
+downloads/
+downloaded.json
+
+# Logs e caches
+logs/
+__pycache__/
+
+# Outros arquivos específicos do usuário ou do sistema
+# Por exemplo, arquivos de serviço
+scryll.service
+scryll.timer
+scryllenv/
+
+#VScode config
+.vscode/
+
