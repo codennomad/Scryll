@@ -41,3 +41,10 @@ Thumbs.db
 # Arquivos de serviço (podem conter caminhos específicos)
 scryll.service
 scryll.timer
+# VPN credentials and config — never commit
+vpn_credentials.txt
+*.ovpn
+*.opvn
+
+# Cloudflare session cookies
+cf_cookies.json
