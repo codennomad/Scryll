@@ -47,7 +47,7 @@ def download_new_chapters(title: str, site: str, chapters: list):
                 if ext not in [".jpg", ".jpeg", ".png", ".webp"]:
                     ext = ".jpg"  # Padrão
                 save_path = os.path.join(folder, f"{idx:03d}{ext}")
-                download_image(img_url, save_path)
+                download_image(img_url, save_path, referer=chapter.url)
 
             logger.success(f"📥 Novo capítulo baixado: {title} {chapter.title} ({chapter.url})")
             notify_telegram(f"📚 *Novo capítulo disponível!*\n*{title}*\n{chapter.title}\n🔗 {chapter.url}")

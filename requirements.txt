@@ -2,3 +2,8 @@ requests
 beautifulsoup4
 loguru
 python-dotenv
+cloudscraper
+pytest
+pytest-cov
+undetected-chromedriver
+selenium

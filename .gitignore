@@ -1,17 +1,43 @@
 # Arquivos e pastas de downloads
 downloads/
 downloaded.json
+metrics.json
 
 # Logs e caches
 logs/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 
-# Outros arquivos específicos do usuário ou do sistema
-# Por exemplo, arquivos de serviço
+# Ambiente virtual
+scryllenv/
+venv/
+ENV/
+env/
+
+# Arquivos de configuração local
+.env
+config.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Arquivos de serviço (podem conter caminhos específicos)
 scryll.service
 scryll.timer
-scryllenv/
-
-#VScode config
-.vscode/
-
